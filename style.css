@@ -3,6 +3,7 @@
 }
 header img{
   float: left;
+  padding:5px;
 }
 #header1{
   display: inline-block;
@@ -11,7 +12,72 @@ header img{
 #header2{
   display: inline-block;
   position: relative;
-  top: -20px;
-  margin-left: 85%;
+  top: -35px;
+  margin-left: 80%;
   
+}
+#header3{
+  display: inline-block;
+  position: relative;
+  top: -72px;
+  margin-left: 96%;
+  
+}
+p:first-child{
+ font-family: 'mansalva';
+ font-size: 25px;
+ margin-left: 50px;
+ padding: 5px;
+}
+p:nth-child(2){
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+color: rgb(182, 165, 165);
+margin-top: 2px;
+}
+
+header hr{
+  clear: both;
+  background: gray;
+  height: 10px;
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 40px; 
+  margin-left: 10px;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+font-size: 17px;
+color: rgb(182, 165, 165);
+margin-top: 2px;
+position: relative;
+bottom: 40px;
+margin-left: 10px;
+}
+main :nth-child(3){
+float: right;
+
+
+  display: inline-block;
+  top: -60px;
+  right: 20px;
+}
+
+main :nth-child(4){
+  width: 100%;
+}
+.text{
+  margin: 10px 10px 20px 10px;
+  font-size: 22px;
+  text-indent: 20px;
+}
+main :nth-child(8){
+  width: 100%;
 }
