@@ -1,0 +1,17 @@
+*{
+  outline: 1px solid red;
+}
+header img{
+  float: left;
+}
+#header1{
+  display: inline-block;
+  
+}
+#header2{
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  margin-left: 85%;
+  
+}
